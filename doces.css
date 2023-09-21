@@ -1,0 +1,83 @@
+body{
+    background-color:#49090e;
+}
+
+header{
+    background-color:#8a6344;
+}
+
+.cabecalho-imagem{
+    width: 45%;
+}
+
+.cabecalho{
+    background-color:#8a6344;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+}
+
+.cabecalho-lista-item{
+    display:inline-block;
+    margin:0 16px 0;
+    padding:30px 0;
+    font-size: 40px; 
+}
+
+.escola-imagem{
+    width: 44%; 
+}
+
+.escola{
+    background-color: #8a6344;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-conteudo{
+    width: 35%
+}
+
+.escola-titulo{
+    padding: 0 8px;
+    font-size: 30px;
+}
+
+.rodape{
+    background-color: #8a6344;
+    color: white;
+    display: flex; 
+    justify-content: space-around;
+}
+
+
+.rodape-lista-item{
+    display: inline-block;
+    margin: 0 19px;
+    padding: 24px 0;
+    font-size: 56px;
+    color: white;
+}
+
+.escola-texto-um{
+    font-size: 24px;
+    margin: 0 8px;
+}
+
+.bolos-nome{
+    color:#ffffff;
+    text-align: center;
+}
+
+.bolos{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 15% 20% 15% 20%;
+}
+
+.bolos-imagem{
+    width: 20%;
+}
